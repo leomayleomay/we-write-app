@@ -17,7 +17,8 @@
 # bucklescript
 /lib
 .merlin
-src/**/*.js
+*.bs.js
+.bsb.lock
 
 # misc
 .DS_Store
