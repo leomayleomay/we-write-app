@@ -1,0 +1,32 @@
+{
+  "name": "we-write-app",
+  "reason": {
+    "react-jsx": 3
+  },
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "package-specs": [
+    {
+      "module": "commonjs",
+      "in-source": true
+    }
+  ],
+  "suffix": ".js",
+  "namespace": true,
+  "bs-dependencies": [
+    "reason-react",
+    "reason-react-update",
+    "reason-apollo",
+    "remotedata-re",
+    "bs-webapi",
+    "bs-axios",
+    "@glennsl/bs-json"
+  ],
+  "ppx-flags": [
+    "graphql_ppx/ppx",
+    "get_in_ppx/ppx"
+  ],
+  "refmt": 3
+}

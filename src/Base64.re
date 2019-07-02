@@ -1,0 +1,1 @@
+[@bs.val] external encode : string => string = "btoa";
